@@ -27,6 +27,11 @@ button{
     }
 }
 
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
 .p{
     &--gray{
         color: $color-gray;
@@ -36,6 +41,9 @@ button{
     }
     &--uppercase{
         text-transform: uppercase;
+    }
+    &--h1{
+        font-size: 1.5rem;
     }
 }
 
