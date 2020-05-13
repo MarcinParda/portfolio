@@ -11,12 +11,14 @@ const Navigation = () => {
                     <p className="p--gray p--light p--uppercase">Front-end developer</p>
                 </div>
 
-                <nav>
-                    <i class="fa fa-linkedin"></i>
-                    <i class="fa fa-github"></i>
-                    <button>Projekty</button>
-                    <button>O mnie</button>
-                    <button>Kontakt</button>
+                <nav className="tablet">
+                    <i className="fa fa-linkedin"></i>
+                    <i className="fa fa-github"></i>
+                    <div className="buttons">
+                        <button>Projekty</button>
+                        <button>O mnie</button>
+                        <button>Kontakt</button>
+                    </div>
                 </nav>
             </div>
         </div>

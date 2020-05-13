@@ -5,4 +5,10 @@ $color-gray: #6B6E70;
 $color-darkgray: #1F2832;
 $color-light: #F9FDFE;
 
-$font-size: 20px;
+// media queries
+$breakpoint-mobile-landscape: 480px;
+$breakpoint-tablet-portrait: 600px;
+$breakpoint-tablet-landscape: 768px;
+$breakpoint-desktop: 1024px;
+
+$font-size: 14px;

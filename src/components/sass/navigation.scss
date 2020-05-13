@@ -19,13 +19,32 @@
                 height: 40px;
                 margin: 0 5px;
                 line-height: 40px;
-                font-size: 1.5rem;
+                font-size: 2rem;
                 text-align: center;
                 cursor: pointer;
                 transition: .3s;
                 &:hover{
                     font-size: 2rem;
                     color: $color-brown;
+                }
+            }
+            .buttons{
+                display: none;
+            }
+        }
+    }
+}
+
+
+@media (min-width: $breakpoint-desktop) {
+    .navbar{
+        .container{
+            nav{
+                .buttons{
+                    display: inline;
+                }
+                i{
+                    font-size: 1.5rem;
                 }
             }
         }
