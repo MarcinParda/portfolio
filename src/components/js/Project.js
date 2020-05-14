@@ -3,15 +3,35 @@ import "./../sass/projects.scss";
 const Project = (props) => {
     const displayButtons = () => {
         if(props.hideButtons === "live")
-            return <button><p className="p--uppercase">Kod</p></button>;
+            return (
+                <a target="_blank" rel="noopener noreferrer" href={props.linkCode} >
+                    <button>
+                        <p className="p--uppercase">Kod</p>
+                    </button>
+                </a>
+            );
         if(props.hideButtons === "code")
-            return <button><p className="p--uppercase">Live</p></button>;
+            return (
+                <a target="_blank" rel="noopener noreferrer" href={props.linkLive} >
+                    <button>
+                        <p className="p--uppercase">Live</p>
+                    </button>
+                </a>
+            );
         if(props.hideButtons === "none")
             return;
         return (
             <div>
-                <button><p className="p--uppercase">Live</p></button>
-                <button><p className="p--uppercase">Kod</p></button>
+                <a target="_blank" rel="noopener noreferrer" href={props.linkLive} >
+                    <button>
+                        <p className="p--uppercase">Live</p>
+                    </button>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href={props.linkCode} >
+                    <button>
+                        <p className="p--uppercase">Kod</p>
+                    </button>
+                </a>
             </div>
         )
         

@@ -12,17 +12,21 @@ const Navigation = () => {
                 </div>
 
                 <nav className="tablet">
-                    <button className="button__font-awesome">
-                        <i className="fa fa-linkedin"></i>
-                    </button>
-                    <button className="button__font-awesome">
-                        <i className="fa fa-github"></i>
-                    </button>
-                    <div className="buttons">
-                        <button>Projekty</button>
-                        <button>O mnie</button>
-                        <button>Kontakt</button>
-                    </div>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/marcinparda/" >
+                        <button className="button__font-awesome">
+                            <i className="fa fa-linkedin"></i>
+                        </button>
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.github.com/MarcinParda/" >
+                        <button className="button__font-awesome">
+                            <i className="fa fa-github"></i>
+                        </button>
+                    </a>
+                        <div className="buttons">
+                            <button>Projekty</button>
+                            <button>O mnie</button>
+                            <button>Kontakt</button>
+                        </div>
                 </nav>
             </div>
         </div>
