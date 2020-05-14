@@ -6,6 +6,8 @@ const Project = (props) => {
             return <button><p className="p--uppercase">Kod</p></button>;
         if(props.hideButtons === "code")
             return <button><p className="p--uppercase">Live</p></button>;
+        if(props.hideButtons === "none")
+            return;
         return (
             <div>
                 <button><p className="p--uppercase">Live</p></button>

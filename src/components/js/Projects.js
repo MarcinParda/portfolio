@@ -6,6 +6,7 @@ import albumImg from "../../img/album.png";
 import asteroidsImg from "../../img/asteroids.png";
 import todolistImg from "../../img/todolist.png";
 import mocupsImg from "../../img/mocups.png";
+import borrowmeImg from "../../img/borrowme.png";
 
 const Projects = () => {
     return (
@@ -48,8 +49,14 @@ const Projects = () => {
                     <Project
                         name="Portfolio"
                         projectImg={amarokImg}
-                        technologiesUsed={["React", "Sass", "HTML5", "CSS3", "RWD"]}
+                        technologiesUsed={["React", "Sass", "HTML5", "BEM", "RWD"]}
                         hideButtons="live"
+                    />
+                    <Project
+                        name="Projekt grupowy (w trakcie)"
+                        projectImg={borrowmeImg}
+                        technologiesUsed={["React Router", "Axios", "React native"]}
+                        hideButtons="none"
                     />
                 </div>
             </div>
