@@ -1,0 +1,19 @@
+@import "variables";
+
+section.about-me{
+    padding: 50px 0;
+    background-color: $color-background;
+    .container{
+        header{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        article{
+            margin-bottom: 20px;
+            p{
+                margin-bottom: 14px;
+                text-align: left;
+            }
+        }
+    }
+}

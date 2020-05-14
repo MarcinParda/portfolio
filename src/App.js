@@ -3,6 +3,7 @@ import "./App.scss";
 import Technology from "./components/js/Technology";
 import Navigation from "./components/js/Navigation";
 import Projects from "./components/js/Projects";
+import AboutMe from "./components/js/AboutMe";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navigation/>
       <Technology/>
       <Projects/>
+      <AboutMe/>
     </div>
   );
 }
