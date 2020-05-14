@@ -3,7 +3,6 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: $color-background;
     font-family: 'Roboto', sans-serif;
     color: $color-light;
     font-size: $font-size;
@@ -21,6 +20,7 @@ button{
     transition: .3s;
     text-transform: uppercase;
     font-weight: 300;
+    background-color: transparent;
     &:hover{
         cursor: pointer;
         background-color: $color-brown;

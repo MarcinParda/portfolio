@@ -33,16 +33,16 @@ const Technology = () => {
                             <p>Javascript</p>
                         </div>
                         <div className="icon">
+                            <img src={sassImg} alt="sass"></img>
+                            <p>SASS</p>
+                        </div>
+                        <div className="icon">
                             <img src={html5Img} alt="html5"></img>
                             <p>HTML5</p>
                         </div>
                         <div className="icon">
                             <img src={css3Img} alt="css3"></img>
                             <p>CSS3</p>
-                        </div>
-                        <div className="icon">
-                            <img src={sassImg} alt="sass"></img>
-                            <p>SASS</p>
                         </div>
                         <div className="icon">
                             <img src={gitImg} alt="git"></img>
