@@ -7,7 +7,7 @@ const Contact = () => {
             <div className="container">
                 <header><p className="p--h1 p--uppercase"><span className="span--green span--h1">K</span>ontakt</p></header>
                 <article>
-                    <p><span className="span--green">J</span>eśli jesteś zainteresowany nawiązaniem współpracą w postaci pracy lub stażu, zapraszam do kontaktu.</p>
+                    <p><span className="span--green">J</span>eśli jesteś zainteresowany nawiązaniem współpracy w postaci pracy lub stażu, zapraszam do kontaktu.</p>
                     <div className="icons">
                         <div className="icon">
                             <i className="fa fa-phone"></i>
