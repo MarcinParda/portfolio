@@ -7,6 +7,7 @@ import asteroidsImg from "../../img/asteroids.png";
 import todolistImg from "../../img/todolist.png";
 import mocupsImg from "../../img/mocups.png";
 import borrowmeImg from "../../img/borrowme.png";
+import portfolioImg from "../../img/portfolio.png";
 
 const Projects = () => {
     return (
@@ -57,7 +58,7 @@ const Projects = () => {
                     />
                     <Project
                         name="Portfolio"
-                        projectImg={amarokImg}
+                        projectImg={portfolioImg}
                         technologiesUsed={["React", "Sass", "HTML5", "BEM", "RWD"]}
                         hideButtons="live"
                         linkCode = "https://github.com/MarcinParda/portfolio"
