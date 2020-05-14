@@ -12,8 +12,12 @@ const Navigation = () => {
                 </div>
 
                 <nav className="tablet">
-                    <i className="fa fa-linkedin"></i>
-                    <i className="fa fa-github"></i>
+                    <button className="button__font-awesome">
+                        <i className="fa fa-linkedin"></i>
+                    </button>
+                    <button className="button__font-awesome">
+                        <i className="fa fa-github"></i>
+                    </button>
                     <div className="buttons">
                         <button>Projekty</button>
                         <button>O mnie</button>

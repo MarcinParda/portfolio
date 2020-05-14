@@ -27,6 +27,17 @@ button{
     }
 }
 
+.button{
+    &__font-awesome{
+        width: auto;
+        height: auto;
+        border: 0;
+        &:hover{
+            background-color: transparent;
+        }
+    }
+}
+
 .container{
     width: 80%;
     margin: 0 auto;

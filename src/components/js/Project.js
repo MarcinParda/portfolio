@@ -19,7 +19,7 @@ const Project = (props) => {
     return (
         <div className="project">
             <img src={props.projectImg} alt={props.name}></img>
-            <p className="p--uppercase">{props.name}</p>
+            <p className="p--uppercase title">{props.name}</p>
             <div className="buttons">
                 {displayButtons()}
             </div>
