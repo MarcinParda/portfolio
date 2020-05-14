@@ -1,6 +1,6 @@
 # My personal portfolio 
 
-## U can watch it [Live](marcinparda.github.io/portfolio)
+## U can watch it [Live](https://marcinparda.github.io/portfolio/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
