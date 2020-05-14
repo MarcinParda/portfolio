@@ -28,3 +28,35 @@ section.contact{
         }
     }
 }
+
+@media (min-width: $breakpoint-tablet-landscape){
+    .contact{
+        .container{
+            article{
+                .icons{
+                    .icon{
+                        i{
+                            font-size: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: $breakpoint-desktop){
+    .contact{
+        .container{
+            article{
+                .icons{
+                    .icon{
+                        i{
+                            font-size: 150px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

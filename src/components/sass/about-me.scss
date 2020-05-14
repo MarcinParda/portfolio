@@ -17,3 +17,17 @@ section.about-me{
         }
     }
 }
+
+@media (min-width: $breakpoint-desktop){
+    .about-me{
+        .container{
+            .articles{
+                display: flex;
+                justify-content: space-between;
+                article{
+                    width: 48.75%;
+                }
+            }
+        }
+    }
+}

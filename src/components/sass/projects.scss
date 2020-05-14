@@ -32,6 +32,7 @@ section.projects{
                         p{
                             padding: 2px 5px;
                             font-weight: 300;
+                            font-size: 0.8rem;
                         }
                     }
                 }
@@ -45,5 +46,41 @@ section.projects{
             }
         }
 
+    }
+}
+
+@media (min-width: $breakpoint-desktop){
+    section.projects{
+        .container{
+            .projects{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                .project{
+                    width: 45%;
+                    img{
+                        height: 180px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: $breakpoint-1024p){
+    section.projects{
+        .container{
+            .projects{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                .project{
+                    width: 30%;
+                    img{
+                        height: 160px;
+                    }
+                }
+            }
+        }
     }
 }

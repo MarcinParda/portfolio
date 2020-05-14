@@ -5,12 +5,12 @@
     padding-top: 100px;
     background-color: $color-background;
     .container{
-        p{
-            margin-bottom: 5px;
-        }
         header{
             text-align: left;
             margin-bottom: 10px;
+            p{
+                margin-bottom: 5px;
+            }
         }
         article{
             p{
@@ -32,6 +32,77 @@
                 }
                 p{
                     margin: 0;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: $breakpoint-tablet-portrait){
+    .technology{
+        .container{
+            article{
+                p{
+                    margin-bottom: 10px;
+                }
+                .icons{
+                    .icon{
+                        height: 160px;
+                        img{
+                            width: 120px;
+                            height: 120px;
+                        }
+                    }
+                    .fill-desktop{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: $breakpoint-tablet-landscape){
+    .technology{
+        .container{
+            article{
+                p{
+                    margin-bottom: 20px;
+                }
+                .icons{
+                    .icon{
+                        height: 160px;
+                        width: 25%;
+                        img{
+                            width: 120px;
+                            height: 120px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: $breakpoint-desktop){
+    .technology{
+        .container{
+            article{
+                .icons{
+                    .icon{
+                        height: 130px;
+                        width: 16%;
+                        img{
+                            width: 110px;
+                            height: 110px;
+                        }
+                    }
+                    .fill-mobile{
+                        display: none;
+                    }
+                    .fill-desktop{
+                        display: inline;
+                    }
                 }
             }
         }

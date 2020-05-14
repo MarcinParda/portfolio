@@ -67,7 +67,7 @@ button{
     }
 }
 
-@media (min-width: $breakpoint-tablet-landscape) {
+@media (min-width: $breakpoint-tablet-portrait) {
     * {
         font-size: 20px;
     }
