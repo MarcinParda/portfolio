@@ -4,6 +4,7 @@ import Technology from "./components/js/Technology";
 import Navigation from "./components/js/Navigation";
 import Projects from "./components/js/Projects";
 import AboutMe from "./components/js/AboutMe";
+import Contact from "./components/js/Contact";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Technology/>
       <Projects/>
       <AboutMe/>
+      <Contact/>
     </div>
   );
 }
