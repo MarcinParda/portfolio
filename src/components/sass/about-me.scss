@@ -23,9 +23,21 @@ section.about-me{
         .container{
             .articles{
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-around;
                 article{
-                    width: 48.75%;
+                    width: 40%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: $breakpoint-1024p){
+    .about-me{
+        .container{
+            .articles{
+                article{
+                    width: 33%;
                 }
             }
         }
