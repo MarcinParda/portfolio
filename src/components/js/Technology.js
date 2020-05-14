@@ -12,6 +12,7 @@ import vscodeImg from "../../img/vscode.png";
 import figmaImg from "../../img/figma.png";
 import githubImg from "../../img/github.png";
 import gitlabImg from "../../img/gitlab.png";
+import { Element } from 'react-scroll'
 
 const Technology = () => {
     return (
@@ -113,6 +114,7 @@ const Technology = () => {
                     </div>
                 </article>
             </div>
+            <Element name="projects" className="element" ></Element>
         </section>
     )
 }

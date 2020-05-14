@@ -1,6 +1,8 @@
 import React from 'react'
 import "./../sass/navigation.scss";
 import "./../sass/base.scss";
+import { Link } from 'react-scroll'
+
 
 const Navigation = () => {
     return (
@@ -23,9 +25,15 @@ const Navigation = () => {
                         </button>
                     </a>
                         <div className="buttons">
-                            <button>Projekty</button>
-                            <button>O mnie</button>
-                            <button>Kontakt</button>
+                            <Link to="projects" spy={true} smooth={true} duration={500} >
+                                <button>Projekty</button>
+                            </Link>
+                            <Link to="about-me" spy={true} smooth={true} duration={500} >
+                                <button>O mnie</button>
+                            </Link>
+                            <Link to="contact" spy={true} smooth={true} duration={500} >
+                                <button>Kontakt</button>
+                            </Link>
                         </div>
                 </nav>
             </div>
