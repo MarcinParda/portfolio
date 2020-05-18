@@ -49,9 +49,9 @@ const Technology = () => {
                             <img src={gitImg} alt="git"></img>
                             <p>Git</p>
                         </div>
-                        <div className="icon fill-mobile">
+                        <div className="icon fill-tablet">
                         </div>
-                        <div className="icon fill-mobile">
+                        <div className="icon fill-tablet">
                         </div>
                     </div>
                 </article>
@@ -70,13 +70,13 @@ const Technology = () => {
                             <img src={bemImg} alt="bem"></img>
                             <p>BEM</p>
                         </div>
-                        <div className="icon fill-mobile">
-                        </div>
                         <div className="icon fill-desktop">
                         </div>
                         <div className="icon fill-desktop">
                         </div>
                         <div className="icon fill-desktop">
+                        </div>
+                        <div className="icon fill-tablet">
                         </div>
                     </div>
                 </article>
@@ -105,11 +105,13 @@ const Technology = () => {
                         </div>
                         <div className="icon fill-mobile">
                         </div>
-                        <div className="icon fill-mobile">
-                        </div>
-                        <div className="icon fill-mobile">
-                        </div>
                         <div className="icon fill-desktop">
+                        </div>
+                        <div className="icon fill-tablet">
+                        </div>
+                        <div className="icon fill-tablet">
+                        </div>
+                        <div className="icon fill-tablet">
                         </div>
                     </div>
                 </article>
