@@ -2,6 +2,7 @@ import React from 'react'
 import "./../sass/technology.scss";
 import reactImg from "../../img/react.png";
 import javascriptImg from "../../img/javascript.png";
+import typescriptImg from "../../img/typescript.png";
 import html5Img from "../../img/html5.png";
 import css3Img from "../../img/css3.png";
 import sassImg from "../../img/sass.png";
@@ -30,8 +31,8 @@ const Technology = () => {
                             <p>React</p>
                         </div>
                         <div className="icon">
-                            <img src={javascriptImg} alt="javascript"></img>
-                            <p>Javascript</p>
+                            <img src={typescriptImg} alt="typescript"></img>
+                            <p>Typescript</p>
                         </div>
                         <div className="icon">
                             <img src={sassImg} alt="sass"></img>
@@ -58,6 +59,10 @@ const Technology = () => {
                 <article>
                     <p className="p--h1"><span className="span--green span--h1">Z</span>nam:</p>
                     <div className="icons">
+                        <div className="icon">
+                            <img src={javascriptImg} alt="javascript"></img>
+                            <p>Javascript</p>
+                        </div>
                         <div className="icon">
                             <img src={reactImg} alt="react native"></img>
                             <p>React Native</p>
